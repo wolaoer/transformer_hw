@@ -48,13 +48,13 @@ pip install -r requirements.txt
 ### Train the model
 
 ```bash
-python transformer_hw.py
+python train.py
 ```
-
+#### This will yield three models
 ### Generate text samples
-
+#### First modify the file and change the directoty of the model file path
 ```bash
-python transformer_hw.py --generate
+python generate.py
 ```
 
 ---
@@ -69,13 +69,13 @@ python transformer_hw.py --generate
 
 ---
 
-## 📊 Results (Example)
+## 📊 Results 
 
-| Model Variant          | Val Loss | Perplexity |
-| ---------------------- | -------- | ---------- |
-| Baseline (Full)        | 5.21     | 184.08     |
-| No Positional Encoding | ↑        | ↑          |
-| No Attention           | ↑↑       | ↑↑         |
+| Model           |   Test Loss |
+|:----------------|------------:|
+| Baseline (Full) |      4.1123 |
+| No PosEncoding  |      4.2383 |
+| No Attention    |      4.5005 |
 
 ---
 
