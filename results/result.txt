@@ -1,0 +1,52 @@
+
+🚀 Running experiment: Baseline (Full)
+
+
+  Epoch 1/10 | Train=5.4891 | Val=4.6475 | PPL=104.33
+  Epoch 2/10 | Train=4.6748 | Val=4.4507 | PPL=85.69
+  Epoch 3/10 | Train=4.3636 | Val=4.3532 | PPL=77.72
+  Epoch 4/10 | Train=4.1541 | Val=4.3322 | PPL=76.11
+  Epoch 5/10 | Train=4.0024 | Val=4.2974 | PPL=73.51
+  Epoch 6/10 | Train=3.8855 | Val=4.3114 | PPL=74.55
+  Epoch 7/10 | Train=3.7899 | Val=4.2955 | PPL=73.37
+  Epoch 8/10 | Train=3.7104 | Val=4.2962 | PPL=73.42
+  Epoch 9/10 | Train=3.6415 | Val=4.2882 | PPL=72.83
+  Epoch 10/10 | Train=3.5798 | Val=4.3149 | PPL=74.81
+✅ Model saved to Baseline_(Full).pth
+ Test Loss (Baseline (Full)) = 4.1123 | Perplexity = 61.09
+
+🚀 Running experiment: No PosEncoding
+
+  Epoch 1/10 | Train=5.4598 | Val=4.6617 | PPL=105.81
+  Epoch 2/10 | Train=4.6897 | Val=4.4859 | PPL=88.76
+  Epoch 3/10 | Train=4.4138 | Val=4.4279 | PPL=83.76
+  Epoch 4/10 | Train=4.2348 | Val=4.4064 | PPL=81.98
+  Epoch 5/10 | Train=4.1011 | Val=4.3871 | PPL=80.40
+  Epoch 6/10 | Train=3.9966 | Val=4.3811 | PPL=79.93
+  Epoch 7/10 | Train=3.9068 | Val=4.3982 | PPL=81.31
+  Epoch 8/10 | Train=3.8334 | Val=4.4024 | PPL=81.65
+  Epoch 9/10 | Train=3.7697 | Val=4.4260 | PPL=83.60
+  Epoch 10/10 | Train=3.7151 | Val=4.4435 | PPL=85.07
+✅ Model saved to No_PosEncoding.pth
+ Test Loss (No PosEncoding) = 4.2383 | Perplexity = 69.29
+
+🚀 Running experiment: No Attention
+  Epoch 1/10 | Train=5.5773 | Val=4.8001 | PPL=121.52
+  Epoch 2/10 | Train=4.9082 | Val=4.6841 | PPL=108.21
+  Epoch 3/10 | Train=4.7033 | Val=4.6651 | PPL=106.18
+  Epoch 4/10 | Train=4.5880 | Val=4.6517 | PPL=104.77
+  Epoch 5/10 | Train=4.5043 | Val=4.6524 | PPL=104.84
+  Epoch 6/10 | Train=4.4458 | Val=4.6561 | PPL=105.23
+  Epoch 7/10 | Train=4.3991 | Val=4.6718 | PPL=106.89
+  Epoch 8/10 | Train=4.3577 | Val=4.6756 | PPL=107.30
+  Epoch 9/10 | Train=4.3233 | Val=4.6950 | PPL=109.39
+  Epoch 10/10 | Train=4.2874 | Val=4.7070 | PPL=110.72
+✅ Model saved to No_Attention.pth
+ Test Loss (No Attention) = 4.5005 | Perplexity = 90.06
+
+📊 Final Test Loss:
+| Model           |   Test Loss |
+|:----------------|------------:|
+| Baseline (Full) |      4.1123 |
+| No PosEncoding  |      4.2383 |
+| No Attention    |      4.5005 |
