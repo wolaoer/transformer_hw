@@ -27,9 +27,15 @@ project_root/
 │   │── model.py         # Transformer model implementation
 │   │── train.py         # Training loop
 │   │── generate.py          # Evaluation and generation
+│── result/              # experiment result
+│── weight/              #model weight
 │── requirements.txt
 │── README.md
 ```
+## Model weight
+To get the model weight,click the url below:
+
+https://pan.baidu.com/s/19d8FXjIxQYFkeTFaCYVyeQ?pwd=abcd 
 
 ---
 
